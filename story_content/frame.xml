@@ -1,0 +1,2570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxabnsnfns10111111101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x727CA3">
+  <layouts>
+    <layout name="npnxnanbsnfns10111111101" font="Articulate" controllayout="npnxnanbsnfns10111111101" colorscheme="npxabnsnfns10111111101" string_table="npxabnsnfns10111111101" />
+    <layout name="pxabnsnfns10111111101" font="Articulate" controllayout="pxabnsnfns10111111101" colorscheme="npxabnsnfns10111111101" string_table="npxabnsnfns10111111101" />
+    <layout name="npxnabnsnfns10111111101" font="Articulate" controllayout="npxnabnsnfns10111111101" colorscheme="npxabnsnfns10111111101" string_table="npxabnsnfns10111111101" />
+    <layout name="npnxnanbnsnfns10111111101" font="Articulate" controllayout="npnxnanbnsnfns10111111101" colorscheme="npxabnsnfns10111111101" string_table="npxabnsnfns10111111101" />
+    <layout name="pxabnsnfns10111111100" font="Articulate" controllayout="pxabnsnfns10111111100" colorscheme="npxabnsnfns10111111101" string_table="npxabnsnfns10111111101" />
+    <layout name="npxabnsnfns10111111101" font="Articulate" controllayout="npxabnsnfns10111111101" colorscheme="npxabnsnfns10111111101" string_table="npxabnsnfns10111111101" />
+    <layout name="pnxanbnsnfns10111111101" font="Articulate" controllayout="pnxanbnsnfns10111111101" colorscheme="npxabnsnfns10111111101" string_table="npxabnsnfns10111111101" />
+    <layout name="pnxnanbsnfns10111111101" font="Articulate" controllayout="pnxnanbsnfns10111111101" colorscheme="npxabnsnfns10111111101" string_table="npxabnsnfns10111111101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Enhancing Online Course Engagement through Interactive Formative Assessment." />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="glossary" value="true" group="linkleft" />
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="transcript" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="true">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Articulate" />
+            </options>
+          </option>
+          <option name="settings" value="true" />
+          <option name="fullScreenToggle" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111111101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111111101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111111101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111111101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111111100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="npxabnsnfns10111111101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pnxanbnsnfns10111111101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pnxnanbsnfns10111111101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npxabnsnfns10111111101">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="focus_rect_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x002060" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x545454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="94" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="30" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x727CA3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C7C7C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA2A2A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x727CA3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="10" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npxabnsnfns10111111101">
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_items">items</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_visited">visited</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="three_image_item">item</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="closed_captions_tip">Toggle captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="replay_shortcut">Replay slide</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Transcript</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous slide</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Articulate">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+        <file bold="false" italic="true" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6j6er87PGhY" displaytext="Overview and Introduction" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6j6er87PGhY.5cAnCGSmDbj" displaytext="Opening Title" expand="false" type="slide" />
+            <slidelink slideid="_player.6j6er87PGhY.6PbCqHDRuWR" displaytext="Trigger Phase" expand="false" type="slide" />
+            <slidelink slideid="_player.6j6er87PGhY.5X3e66u6ZcO" displaytext="Course Overview" expand="false" type="slide" />
+            <slidelink slideid="_player.6j6er87PGhY.6SkZx043Yd4" displaytext="Course Introductions" expand="false" type="slide" />
+            <slidelink slideid="_player.6j6er87PGhY.6MiXlLqiADk" displaytext="Course Expectations" expand="false" type="slide" />
+            <slidelink slideid="_player.6j6er87PGhY.65C62Ugt3bt" displaytext="Interest Assessment" expand="false" type="slide" />
+            <slidelink slideid="_player.6j6er87PGhY.6JuQy2yz7dC" displaytext="Student Engagement Assessment" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6Udc2jktDrD" displaytext="Triggering Phase" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6Udc2jktDrD.6iCvNtlddjH" displaytext="Triggering Phase" expand="false" type="slide" />
+            <slidelink slideid="_player.6Udc2jktDrD.68MkF2ebXb1" displaytext="Big Ideas" expand="false" type="slide" />
+            <slidelink slideid="_player.6Udc2jktDrD.6IMHKFyfAsg" displaytext="How to Proceed" expand="false" type="slide" />
+            <slidelink slideid="_player.6Udc2jktDrD.6UujPEbvnkv" displaytext="How to Complete" expand="false" type="slide" />
+            <slidelink slideid="_player.6Udc2jktDrD.6CVmW773jjI" displaytext="Understanding Completion" expand="false" type="slide" />
+            <slidelink slideid="_player.6Udc2jktDrD.6MeiISfP2HX" displaytext="Understanding Completion  Debrief" expand="false" type="slide" />
+            <slidelink slideid="_player.6Udc2jktDrD.6Uzt0cWlbPy" displaytext="Key Terms" expand="false" type="slide" />
+            <slidelink slideid="_player.6Udc2jktDrD.6ETRixrtGf2" displaytext="Formative Examples" expand="false" type="slide" />
+            <slidelink slideid="_player.6Udc2jktDrD.6BeBYBO3vRb" displaytext="Summative Examples" expand="false" type="slide" />
+            <slidelink slideid="_player.6Udc2jktDrD.66lTACPMKmv" displaytext="Understanding Formative Options" expand="false" type="slide" />
+            <slidelink slideid="_player.6Udc2jktDrD.6h7SaMz1on1" displaytext="Understanding Formative Options  Debrief" expand="false" type="slide" />
+            <slidelink slideid="_player.6Udc2jktDrD.5yEN5CGwda2" displaytext="Transition to Online Courses" expand="false" type="slide" />
+            <slidelink slideid="_player.6Udc2jktDrD.6Tnt3saERB0" displaytext="Assessment Usage during Covid " expand="false" type="slide" />
+            <slidelink slideid="_player.6Udc2jktDrD.66FQOc4GLxu" displaytext="Assessment Usage during Covid Debrief" expand="false" type="slide" />
+            <slidelink slideid="_player.6Udc2jktDrD.6IAr9EpIlD8" displaytext="Rationale for Course Focus" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6iDFCaOo1Wy" displaytext="Exploration Phase" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6iDFCaOo1Wy.5oWzfhFnelK" displaytext="Exploration Phase" expand="false" type="slide" />
+            <slidelink slideid="_player.6iDFCaOo1Wy.6iHWtzeDvPB" displaytext="Assessment For and As Learning" expand="false" type="slide" />
+            <slidelink slideid="_player.6iDFCaOo1Wy.5rayqXlnTLe" displaytext="Assessment for Learning" expand="false" type="slide" />
+            <slidelink slideid="_player.6iDFCaOo1Wy.5Zu8ahHTeQl" displaytext="Who Adapts Based on Feedback?" expand="false" type="slide" />
+            <slidelink slideid="_player.6iDFCaOo1Wy.66SOcxFa026" displaytext="Assessment as Learning" expand="false" type="slide" />
+            <slidelink slideid="_player.6iDFCaOo1Wy.6nlLIfulWVd" displaytext="Retreival Practice" expand="false" type="slide" />
+            <slidelink slideid="_player.6iDFCaOo1Wy.6HmObgCdLNj" displaytext="Why does Formatie Assessment Work?" expand="false" type="slide" />
+            <slidelink slideid="_player.6iDFCaOo1Wy.6LlqxvqnvUM" displaytext="Online Relevancy - Social Presence" expand="false" type="slide" />
+            <slidelink slideid="_player.6iDFCaOo1Wy.5YM306H9nuH" displaytext="Online Relevancy - Interactions" expand="false" type="slide" />
+            <slidelink slideid="_player.6iDFCaOo1Wy.5zgWxxDhLVz" displaytext="Online Relevancy - Summary" expand="false" type="slide" />
+            <slidelink slideid="_player.6iDFCaOo1Wy.5jKrrGGRtHS" displaytext="Why are Interactive Formative Assessments Important for Online Classes?" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6EVgq9goZKG" displaytext="Integration Phase" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6EVgq9goZKG.5yHC90RHExQ" displaytext="Integration Phase" expand="false" type="slide" />
+            <slidelink slideid="_player.6EVgq9goZKG.6PIUz4gNCsy" displaytext="Integration- General Information" expand="false" type="slide" />
+            <slidelink slideid="_player.6EVgq9goZKG.6cGHSK8lE4y" displaytext="Synchronous Options Role Play" expand="false" type="slide" />
+            <slidelink slideid="_player.6EVgq9goZKG.6e2Xd1lRdgM" displaytext="Synchronous Options Role Play Directions" expand="false" type="slide" />
+            <slidelink slideid="_player.6EVgq9goZKG.5XE9Id1QoYS" displaytext="Synchronous Options Activity" expand="false" type="slide" />
+            <slidelink slideid="_player.6EVgq9goZKG.6LPswZpR1KN" displaytext="Asynchronous Options Role Play" expand="false" type="slide" />
+            <slidelink slideid="_player.6EVgq9goZKG.5thEJPlly93" displaytext="Asynchronous Options Role Play Directions" expand="false" type="slide" />
+            <slidelink slideid="_player.6EVgq9goZKG.6cZtz3mEB0q" displaytext="Asynchronous Options Activity" expand="false" type="slide" />
+            <slidelink slideid="_player.6EVgq9goZKG.6ph76MXGwka" displaytext="Similarities Role Play" expand="false" type="slide" />
+            <slidelink slideid="_player.6EVgq9goZKG.6fV45QbTixJ" displaytext="Similarities Role Play Directions" expand="false" type="slide" />
+            <slidelink slideid="_player.6EVgq9goZKG.5aLwc0xkvxp" displaytext="Similarities Activity" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6TPoMUDFbh1" displaytext="Resolution Phase" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6TPoMUDFbh1.6SLKZAtSxG5" displaytext="Resolution Phase" expand="false" type="slide" />
+            <slidelink slideid="_player.6TPoMUDFbh1.6qVhvGoECoo" displaytext="Quiz - Instructions" expand="false" type="slide" />
+            <slidelink slideid="_player.6TPoMUDFbh1.6c6GKAJvuME" displaytext="Quiz - Expectations" expand="false" type="slide" />
+            <slidelink slideid="_player.6TPoMUDFbh1.6Rw98hpm995" displaytext="Quiz - Criteria for Success" expand="false" type="slide" />
+            <slidelink slideid="_player.6TPoMUDFbh1.679CDN97j9W" displaytext="Quiz - Technical Challenges" expand="false" type="slide" />
+            <slidelink slideid="_player.6TPoMUDFbh1.5uxv1QyOvIg" displaytext="Quiz Question 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6TPoMUDFbh1.6RhQftyfXvX" displaytext="Quiz Question 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6TPoMUDFbh1.5fGOZIDig6m" displaytext="Quiz Question 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6TPoMUDFbh1.6gfjFAIRfAi" displaytext="Quiz Question 4" expand="false" type="slide" />
+            <slidelink slideid="_player.6TPoMUDFbh1.5rvSHjLe8rH" displaytext="Quiz Question 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6TPoMUDFbh1.6jk3oRUzPMX" displaytext="Unscuccessful Conclusion - " expand="false" type="slide" />
+            <slidelink slideid="_player.6TPoMUDFbh1.6jid47R1T2N" displaytext="Conclusion - Passed" expand="false" type="slide" />
+            <slidelink slideid="_player.6TPoMUDFbh1.5m4GI57YeL4" displaytext="Successful Conclusion - Summary" expand="false" type="slide" />
+            <slidelink slideid="_player.6TPoMUDFbh1.6EcbshkrrYh" displaytext="Conclusion - Thank You" expand="false" type="slide" />
+            <slidelink slideid="_player.6TPoMUDFbh1.5f5ZwwlEBnZ" displaytext="Conclusion - Reading Recommendations" expand="false" type="slide" />
+            <slidelink slideid="_player.6TPoMUDFbh1.5dMKB5QnJxS" displaytext="Conclusion - References" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Articulate' style='font-size: 11px;' size='11' color='#BABBBA'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="https://www.oercommons.org/courses/formative-assessment-during-distance-learning" image="story_content/url.png" title="Formative Assessment During Distance Learning" />
+      <resource url="https://www.oercommons.org/courseware/lesson/13834/overview" image="story_content/url.png" title="Digital Formative Assessment Tools" />
+      <resource url="https://www.oercommons.org/courses/guidelines-for-online-assessments-for-educators" image="story_content/url.png" title="Guidelines for Online Assessments for Educators" />
+    </resources>
+  </resource_data>
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="6j6er87PGhY.5cAnCGSmDbj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Hello, and welcome to Enhancing Online Courses through Interactive Formative Assessment."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6j6er87PGhY.5X3e66u6ZcO" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Welcome to today’s interactive lesson on enhancing online course engagement through formative assessment."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Navigation through the Interactive Lesson can be accomplished through the PRIOR and NEXT buttons found on the bottom  right of the player.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Participants will need a stable internet connection and speakers to finish the interactive lesson, as well as an ability to select information, such as using a mouse, on a screen."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6j6er87PGhY.6SkZx043Yd4" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="My name is Dave Hochstein and I’m an Associate Professor of Psychology at Wright State University Lake Campus. I have taught undergraduate students for over 20 years, and have used several different types of online teaching delivery systems during that time. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="9" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Questions should be sent to "&gt;
+        &lt;Style FontFamily="+minor" FontSize="9" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="dave.hochstein@wright.edu "&gt;
+        &lt;Style FontFamily="+minor" FontSize="9" FontIsUnderline="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="9" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="9" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Discussion forums are also available on the Pilot website hosting this course to discuss additional formative assessment opportunities.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="9" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="9" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Please enter your name and then click  the Continue button.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="9" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="9" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="We’ll be using this for identifying your score at the very end of this interactive lesson in your certification of completion, as well as the role-playing scenario.   "&gt;
+        &lt;Style FontFamily="+minor" FontSize="9" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6j6er87PGhY.6MiXlLqiADk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Participants are assumed to have experience with teaching undergraduate students at Wright State University. Online experience is not strictly necessary.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Those taking the course are expected to do so independently and not share the specific questions given in the course, but are encouraged to share information about these practices with their colleagues. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="To pass the Interactive lesson, all sections of the lesson should be completed and a score of 80% is needed on final assessment."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6j6er87PGhY.65C62Ugt3bt" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use the slider to indicate how much interest you currently have in using formative assessment practices in online courses."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6j6er87PGhY.6JuQy2yz7dC" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use the dial to indicate how engaged you think students would typically be in an online class."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Udc2jktDrD.68MkF2ebXb1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Our interactive lesson today is focused on the idea that multiple formative assessment strategies exist and are beneficial to online learning."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Udc2jktDrD.6IMHKFyfAsg" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="0.4"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="To view the Menu and Transcript, click on the upper left of the player, here circled in purple, or click on the Menu or Transcript tabs in that location.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="0.4"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="0.4"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="To view the Glossary or Resources, click on the upper right at the top of the player circled in orange here or click on the Glossary or Resources tabs in that location.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="0.4"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="0.4"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="To view the closed captions, click on the CC  at the bottom of the player here circled in blue."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Udc2jktDrD.6UujPEbvnkv" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="0.4"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="In order to complete this interactive course, you’ll need to participate in 5 short interactive formative assessments, a role-play case study, and a final summative assessment. The course should take under 15 minutes to complete.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="0.4"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="0.4"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="If you do not score at an 80% or higher, you’ll be asked if you want to retake the course."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" "&gt;
+        &lt;Style FontFamily="+minor" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Udc2jktDrD.6CVmW773jjI" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Just to check your understanding, click on the minimum score required to successfully complete this interactive lesson. Then, click "&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="SUBMIT."&gt;
+        &lt;Style FontFamily="+minor" FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Udc2jktDrD.6MeiISfP2HX" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The correct answer is 80%. You’ll need a score of at least 80% in order to successfully complete this interactive lesson."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Udc2jktDrD.6Uzt0cWlbPy" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Both Formative and Summative Assessment allow assessment of student learning. However, Formative Assessment has the added benefit of providing both student and instructor feedback so that the course of learning can be changed."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Udc2jktDrD.6ETRixrtGf2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Formative assessment are generally low-stakes assessment practices that allow instructors to monitor student understanding. They provide ongoing feedback allowing instructors to improve their instruction and students to improve their understanding."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Udc2jktDrD.6BeBYBO3vRb" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Summative assessments are a final (or sum) assessment of how much a student has learned. Summative Assessments might include a final paper that cannot be revised or resubmitted or a final exam."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Udc2jktDrD.66lTACPMKmv" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="As another understanding check"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", "&gt;
+        &lt;Style FontFamily="+minor" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="select all the following that are examples of formative assessment.  Then, click "&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="SUBMIT."&gt;
+        &lt;Style FontFamily="+minor" FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Udc2jktDrD.6h7SaMz1on1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Final exams and Final papers are great assessments but don’t provide students with actionable feedback, so these would be considered summative assessments.  Group Discussions, response/reflection papers, and bonus quizzes do provide feedback and identify weak areas, so they do qualify as being formative assessments."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Udc2jktDrD.5yEN5CGwda2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="One of the reasons formative assessment has become a hot topic is because during the COVID pandemic, many instructors were forced to transition their courses online, which wasn’t something everyone was prepared for."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Udc2jktDrD.6Tnt3saERB0" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Assuming that you were teaching undergraduates during Covid, rate your usage of the following types of assessments during that time period from most used to least used. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Click, hold, and drag these options so that your most used is at the top and your least used is at the bottom.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Then, click SUBMIT."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Udc2jktDrD.66FQOc4GLxu" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="According to Asamoah et al., (2022), based on a review of 15 research articles from thirteen different counties, instructors typically used written (online quizzes, assignments, and exercises) formative assessments during the COVID pandemic, with only two articles reporting the sole use of discussions and dialogue."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Udc2jktDrD.6IAr9EpIlD8" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Because these more informal types of assessment are much less prevalent, the presentation will primarily cover those types of assessments."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iDFCaOo1Wy.6iHWtzeDvPB" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Formative assessments are important as they allow measurement "&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="for"&gt;
+        &lt;Style FontFamily="+minor" FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" learning as well as measurement "&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="as"&gt;
+        &lt;Style FontFamily="+minor" FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" learning "&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iDFCaOo1Wy.5rayqXlnTLe" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Why is it important that formative assessment allows measurement"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" for"&gt;
+        &lt;Style FontFamily="+minor" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" learning? Researchers such as Asamoah et al., 2022 and Washington OSPI, 2020 indicate that formative assessment gives a student feedback that identifies or lets them self-identify problematic areas. After seeing student performance, the instructor can use that feedback of what’s actually being learned to also adapt instruction to the current needs of the student (e.g., Asamoah et al., 2022; Washington OSPI, 2020).  In essence, both the student and the instructor receive feedback from formative assessments."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iDFCaOo1Wy.5Zu8ahHTeQl" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=" "&gt;
+        &lt;Style FontFamily="+minor" FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="In a classroom or online, who is it that can adapt based on feedback from formative assessments? Click on the image of the correct answer, and then click submit."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iDFCaOo1Wy.66SOcxFa026" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Why is it important that formative assessment also be described as a “measurement"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" as"&gt;
+        &lt;Style FontFamily="+minor" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" learning”?  It’s because these types of assessment play a role in helping students learn the material, as has been reported by multiple researchers, such as Asamoah et al 2022."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iDFCaOo1Wy.6nlLIfulWVd" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Why do formative assessments help learning? They allow for retrieval practice, which requires active participation in retrieving information as reported by Karpicke et al., 2009, and this increases students’ abilities to remember that information later, as reported by Roediger &amp;amp; Karpicke, 2006."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iDFCaOo1Wy.6HmObgCdLNj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="25">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Changing our assessment technique just a little bit, click on all of the answers that correctly identify the reasons formative assessments help students learn material.  Click Submit when you are finished."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iDFCaOo1Wy.6LlqxvqnvUM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="26">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="So far, we’ve only talked about formative assessments in general. What about issues specific to online courses? Well, they become important for online courses because they add social presence to the learning environment, as reported by Garrison in 2016 and this ability to interact is fundamental in traditional face-to face learning settings, as reported by  Wei et al., 2015."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iDFCaOo1Wy.5YM306H9nuH" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="27">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="For online courses, formative assessments based primarily on interaction, such as group discussion or journaling, may be even more effective for student learning than formal techniques such as quizzes or papers, as reported by Nieminen et al., 2020.  These more interactive techniques also promote creativity and participation in the course, as found by Asamoah et al., 2022."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iDFCaOo1Wy.5zgWxxDhLVz" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="28">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Not only do"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" i"&gt;
+        &lt;Style FontFamily="+minor" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="nteractive formative assessments impact learning performance, but they are considered to be critical for successful online learning, as suggested by Wei et al., 2015."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iDFCaOo1Wy.5jKrrGGRtHS" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="29">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Let’s try a different formative assessment. Click and drag all of the word choices that describe reasons interactive formative assessment is important for online classes to the chalkboard at the right.   Click " /&gt;
+      &lt;Span Text="SUBMIT"&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" when finished." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6EVgq9goZKG.6PIUz4gNCsy" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="30">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="We are now transitioning into the role play activity, where you’ll be exploring your options for increasing engagement in online classes through formative assessments. For this role play, imagine you are having a conversation with a fellow faculty member who has taught several classes online."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6EVgq9goZKG.6cGHSK8lE4y" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="31">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Hi, I heard you were interested in increasing interactivity in your online classes using formative assessments.  I have some ideas for you for both asynchronous and synchronous classes. First, we’ll explore options for a synchronous class." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6EVgq9goZKG.6e2Xd1lRdgM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="32">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="When you are ready, click NEXT like always. You’ll be able to click on different types of options available for synchronous online courses to see specific examples available for each. "&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6EVgq9goZKG.6LPswZpR1KN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="33">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Now that we’ve covered some of the many options available for synchronous classes, let’s explore some options for asynchronous classes."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6EVgq9goZKG.5thEJPlly93" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="34">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="When you are ready, click NEXT like always. Here, we have made things a little more difficult. You’ll see several different options for asynchronous classes.  You should click and drag these options to their correct locations on the computer monitor. Once you have them correct,  you will see specific examples of each."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6EVgq9goZKG.6ph76MXGwka" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="35">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Now that we’ve covered some of the many options available for synchronous classes and asynchronous classes , let’s think about what they have in common with each other." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6EVgq9goZKG.6fV45QbTixJ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="36">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="When you are ready, click NEXT like always. You should click on boxes next to the attributes that interactive formative assessments have in common with each other. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6TPoMUDFbh1.6qVhvGoECoo" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="37">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Now that"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" "&gt;
+        &lt;Style FontFamily="+minor" FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="you’ve made it through the formative assessments, it’s time for the summative assessment. "&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6TPoMUDFbh1.6c6GKAJvuME" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="38">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You’ll be receiving five questions, all of which will require slightly different ways of responding, so be sure to read the directions. The entire summative assessment should take less than 5 minutes to complete." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6TPoMUDFbh1.6Rw98hpm995" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="39">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Remember, you must earn at least an 80% on this summative assessment in order to successfully complete it. If you do not earn at least an 80%, you’ll be given an option to retake the lesson."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6TPoMUDFbh1.679CDN97j9W" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="40">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="If you have any technical issues while taking the assessment that prevents you from finishing, contact me as soon as possible. If there are any other technical issues, you should contact me as well.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="As a warning, after you click Start Assessment, you will not be able to click on PRIOR to revisit any previous pages.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Make sure you are ready to take the assessment by finding a distraction free environment, and then click Start Assessment. "&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6TPoMUDFbh1.5m4GI57YeL4" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="41">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="In summary, while summative assessments are valuable tools for assessing learning, formative assessments are valuable for assessing and promoting learning. They are particularly valuable for online learning, as their interactivity adds to the social dimension of online classes, keeping students engaged in the material."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6TPoMUDFbh1.6EcbshkrrYh" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="42">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Thank you for taking the course. If you have any questions or suggestions, please contact me via email  dave.hochstein@wright.edu" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6TPoMUDFbh1.5f5ZwwlEBnZ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="43">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="If you are interested in learning more about this topic, check out the reference list on the next page. If looking for books on the topic, you might try " /&gt;
+      &lt;Span Text="Make  It Stick: The Science of Successful Learning "&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="by Brown, Roediger, and McDaniel and " /&gt;
+      &lt;Span Text="Thinking Collaboratively: Learning in a Community of Inquiry "&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="by Garrison." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6TPoMUDFbh1.6jk3oRUzPMX" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="44">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Unfortunately, you did not pass the course. Please either retry the course by clicking on the RETRY button below or read the summary by clicking the NEXT button below. Just remember you’ll have to retry the course again at a later date."&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6TPoMUDFbh1.6jid47R1T2N" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="45">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Congratulations on passing the course!"&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data>
+    <terms>
+      <term title="Formative assessment">Formative assessments are generally low-stakes assessment practices that allow instructors to monitor student understanding. They provide ongoing feedback allowing instructors to improve their instruction and students to improve their understanding.</term>
+      <term title="Retreival Practice">Retreival practice is a method of increasing memory through assessments requring the student to pull information from memory. This allows the student to know what they do and do not know, as well as providing practice in the retreival of that particular information.</term>
+      <term title="Social presence">Social presence is the extent to which students can identify, communicate, and develop relationships within a course. (Garrison, 2016)</term>
+      <term title="Sumative Assessment">Sumative assessments are generally high-stakes assessment practices that provide instructors a measure of how much the student has learned at the end of an instructional unit.</term>
+      <term title="Teaching Presence">Teaching prescence is the extent to which there is leadership  that provides for the design, facilitation, and direction of the educational expereince (Garrison, 2016).</term>
+    </terms>
+  </glossary_data>
+</bwFrame>
